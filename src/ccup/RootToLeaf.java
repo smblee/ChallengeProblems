@@ -6,7 +6,8 @@ import java.util.*;
  * Created by bryan on 10/31/2016.
  */
 public class RootToLeaf {
-    private Deque<Integer> path =  new ArrayDeque<>();;
+    // https://www.careercup.com/question?id=5721708662095872
+    private Deque<Integer> path =  new ArrayDeque<>();
     private List<String> res = new ArrayList<>();
     private TreeNode node;
 
